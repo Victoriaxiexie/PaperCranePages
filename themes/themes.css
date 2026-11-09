@@ -1,0 +1,509 @@
+@charset "UTF-8";
+
+html {
+    font-size: 62.5%;
+    background-color: white;
+}
+
+
+#container{
+    min-width: 1260px;
+    max-width: 1550px;
+    width: 100%;
+}
+
+.logo {
+    display: block;
+    height: auto;
+    width: 300px;
+}  
+
+.title {
+  position: absolute;
+  top: 20px;       
+  right: 400px;    
+  z-index: 2;     
+  font-weight: bold;
+  font-size: 5em;
+  color: #3b3b3b ;    
+  text-align: center;
+  line-height: 1.2;
+    font-family: "montserrat";
+}
+
+.banner {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.headerbar {
+    display: flex;
+    height: 200px;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+    grid-gap: 0.5rem;
+    padding: 2rem;
+    background-color: white;
+}
+
+.top-section {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+    
+}
+
+header {
+    
+}
+
+body {   
+    margin: 0px;
+    padding: 0px;
+    background-color: #faf6f9;
+    
+    
+}
+
+.main-content {
+    background-color: #faf6f9;
+    min-height: 70vh;
+    padding: 2rem;
+    overflow: hidden;           
+  
+}
+
+/*Buttons*/
+
+  nav {
+        font-family: "montserrat";
+        font-size: 1.5rem;
+        padding-left: 245px;
+        background-color: white;
+        padding-bottom: 30px;
+        
+    }
+    
+    nav a{
+        text-decoration:none;
+        
+    } 
+    nav ul{
+        background: #fff;
+        list-style: none;
+        margin: 5rem;
+        padding: 0;
+        position: relative;
+        
+    }
+
+  
+    nav li{
+        background: #faf9f6;
+        color: #3b3b3b;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        text-decoration: none;
+        float: left;
+        position: relative;
+        width: 10rem;
+        text-align: center;   
+        margin-right: 4rem;
+        
+    }
+
+    nav li a{
+        color: #3b3b3b;
+    }
+
+    nav li:hover{
+        background: #b6c5f4;
+    }
+    nav ul li ul {
+        background: #faf9f6;
+        min-width: 5rem;
+        position: absolute;
+        display: none;
+        left: 0;
+        /* margin-top: 1rem; */
+        top: 100%;         
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 10rem;       /* same as your button width */
+        z-index: 10;
+    }
+    
+    nav ul li:hover > ul, ul li ul:hover {
+        display: block;
+        width: 7rem;
+    }
+    
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: flex;
+        
+    }
+
+.themesheader {
+    background-color: #faf6f9;
+    padding: 2rem;
+    overflow: hidden;           
+}
+
+.themestitle{
+    font-family: "Bree Serif", serif;
+    text-align: center;
+    font-size: 875%;
+    color: #3b3b3b;
+    margin-top: -15px;
+    margin-bottom: -10px;
+    font-kerning: auto;
+}
+
+.themesimage {
+    height: 800px;
+    width: 90%;
+    max-width: 1300px;
+    padding-left: 11rem;
+    padding-top: 0.5rem;
+
+}
+
+.content{
+    background-color: #faf6f9;
+    overflow: hidden; 
+    max-width: 1300px;
+    padding-left: 22rem;
+    margin-right: 20rem;
+    padding-top: 0.5rem;
+}
+
+.text{
+    font-family: "Montserrat";
+    text-align: left;
+    font-size: 175%;
+    color: #3b3b3b;
+    font-kerning: auto; 
+}
+
+.subhead{
+    font-family: "Bree Serif", serif;
+    text-align: left;
+    font-size: 2.5em;
+    color: #3b3b3b;
+    font-kerning: auto;
+}
+
+/*Themes Sub-headings*/
+
+#submenucontent {
+display: flex
+}
+
+.column{
+    flex: 3%;
+    padding: 3px;
+}
+
+.submenutext{
+    width: 1000px;
+    font-family: "montserrat";
+    font-size: 1.8rem;
+    color:#3b3b3b;
+    margin-left: 14rem;
+}
+
+.arrow{
+    width: 260px;
+    height: 200px;
+}
+
+/*The Kamogawa Food Detectives*/
+
+#submenucontenttwo {
+display: flex;
+margin-top: 4rem;
+}
+
+.column{
+    flex: 3%;
+    padding: 3px;
+}
+
+.booktitleheader{
+    font-family: "Bree Serif", serif;
+    font-size: 
+    color:#3b3b3b;
+}
+
+.submenutexttwo{
+    font-family: "montserrat";
+    font-size: 1.8rem;
+    color:#3b3b3b;
+    margin-left: 22rem;
+}
+
+.synopsis-box {
+  background-color: #f8f8f8;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  max-width: 500px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+.thekamogawafooddetectives{
+    height: 600px;
+    margin-left: 7rem;
+    
+}
+
+/*A Hubdred Years and a day*/
+
+#submenucontenttwo {
+display: flex;
+margin-top: 4rem;
+}
+
+.column{
+    flex: 3%;
+    padding: 3px;
+}
+
+.booktitleheader{
+    font-family: "Bree Serif", serif;
+    font-size: 2.8rem;
+    color:#3b3b3b;
+}
+
+.submenutexttwo{
+    font-family: "montserrat";
+    font-size: 1.8rem;
+    color:#3b3b3b;
+    margin-left: 22rem;
+}
+
+.synopsis-box {
+  background-color: #f8f8f8;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  max-width: 500px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+.ahundredyearsandaday{
+    height: 600px;
+    margin-left: 7rem;
+    
+}
+    
+/*All the Lovers in the Night*/
+
+#submenucontenttwo {
+display: flex;
+margin-top: 4rem;
+}
+
+.column{
+    flex: 3%;
+    padding: 3px;
+}
+
+.booktitleheader{
+    font-family: "Bree Serif", serif;
+    font-size: 2.8rem;
+    color:#3b3b3b;
+}
+
+.submenutexttwo{
+    font-family: "montserrat";
+    font-size: 1.8rem;
+    color:#3b3b3b;
+    margin-left: 22rem;
+}
+
+.synopsis-box {
+  background-color: #f8f8f8;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  max-width: 500px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+.alltheloversinthenight{
+    height: 600px;
+    margin-left: 7rem;
+    
+}
+
+/*All the Lovers in the Night*/
+
+#submenucontenttwo {
+display: flex;
+margin-top: 4rem;
+}
+
+.column{
+    flex: 3%;
+    padding: 3px;
+}
+
+.booktitleheader{
+    font-family: "Bree Serif", serif;
+    font-size: 2.8rem;
+    color:#3b3b3b;
+}
+
+.submenutexttwo{
+    font-family: "montserrat";
+    font-size: 1.8rem;
+    color:#3b3b3b;
+    margin-left: 22rem;
+}
+
+.synopsis-box {
+  background-color: #f8f8f8;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  max-width: 500px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+.daysatthemorisakibookshop{
+    height: 600px;
+    margin-left: 7rem;
+    
+}
+
+/*Lonely Castle in the Mirror*/
+
+#submenucontenttwo {
+display: flex;
+margin-top: 4rem;
+}
+
+.column{
+    flex: 3%;
+    padding: 3px;
+}
+
+.booktitleheader{
+    font-family: "Bree Serif", serif;
+    font-size: 2.8rem;
+    color:#3b3b3b;
+}
+
+.submenutexttwo{
+    font-family: "montserrat";
+    font-size: 1.8rem;
+    color:#3b3b3b;
+    margin-left: 22rem;
+}
+
+.synopsis-box {
+  background-color: #f8f8f8;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  max-width: 500px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+.lonelycastleinthemirror{
+    height: 600px;
+    margin-left: 7rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+    background-color: white; 
+    padding: 4rem 2rem;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1500px;
+    display:flex;
+    gap: 8rem;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4rem;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+.footerlogo {
+    height: auto;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.update{
+    font-size: 1rem;
+    font-family: "montserrat", sans-serif;
+}
+.footer-links{
+    font-family: "montserrat";
+    font-size: 2rem;
+    color: #3b3b3b;
+    padding-top: 8rem;
+    padding-left: 13rem;
+}
+
+.footer-links a {
+  color: #3b3b3b;          
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-size: 1.6rem;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
